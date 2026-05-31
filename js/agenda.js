@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
         expandRows: true,
         displayEventTime:false,
         selectLongPressDelay: 0, // Remove o atraso de "segurar" no celular e ativa com 1 toque
-
         headerToolbar: {
             left: 'prev,next today',
             center: 'title',
@@ -96,6 +95,8 @@ function abrirModalParaReserva(info) {
     document.getElementById('form-reserva').dataset.end = info.endStr;
 
     document.getElementById('modal-agendamento').style.display = 'flex';
+   
+
 }
 
 function fecharModal() {
@@ -141,7 +142,7 @@ function obterEventosSimulados(labId) {
         daysOfWeek: [3, 5], // 3 = Quarta, 5 = Sexta
         startTime: '09:00:00', // Começa na 3ª Aula
         endTime: '11:00:00',   // Ocupa a 3ª e a 4ª Aula (termina quando começa a 5ª)
-        color: '#E53E3E', // Vermelho para indicar bloqueio fixo
+        color: '#FF9F43', // Vermelho para indicar bloqueio fixo
     };
 
 
