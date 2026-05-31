@@ -24,6 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
         locale: 'pt-br', // Força o idioma para português
         expandRows: true,
         displayEventTime:false,
+        selectLongPressDelay: 0, // Remove o atraso de "segurar" no celular e ativa com 1 toque
+
         headerToolbar: {
             left: 'prev,next today',
             center: 'title',
