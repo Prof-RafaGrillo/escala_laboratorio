@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda do Laboratorio</title>
+    
+    <script src=" https://cdn.jsdelivr.net/npm/fullcalendar@6.1.20/index.global.min.js "></script>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/components/botoes.css">
+    <link rel="stylesheet" href="../css/agenda.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="../index.html" class="btn-voltar"><img src="../assets/icons/arrow-right-svgrepo-com.svg" alt=""></a>
+            <h1>LAB_INFO :: <span id="nome-lab">Laboratorio</span></h1>
+        </div>
+        <div class="user-info">
+            <p>Acesso Publico</p>
+        </div>
+    </header>
+    <div class="agenda-container">
+        <aside class="sidebar">
+            <div class="filtro-bloco">
+                <label for="select-lab">Laboratorio Ativo:</label>
+                <select id="select-lab" onchange="mudarLaboratorio(this.value)">
+                    <option value="1">Laboratorio 1 (30 PCs)</option>
+                    <option value="2">Laboratorio 2 (35 PCs)</option>
+                    <option value="3">Laboratorio de Ciencias (34 PC)</option>
+                    <option value="4">Tablets (36 un.)</option>
+                </select>
+            </div>
+            <div class="legenda-bloco">
+                <h3>Status de Horario</h3>
+                <div class="legenda-item"><span class="cor status-livre"></span>Livre (Clique na grade)</div>
+                <div class="legenda-item"><span class="cor status-reservado"></span>Reservado / Ocupado</div>
+                <div class="legenda-item"><span class="cor status-manutencao"></span> Manutencao</div>
+            </div>
+        </aside>
+        <main class="principal calendario-area">
+            <div id="calendar"></div>
+        </main>
+    </div>
+    <div id="modal-agendamento" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Novo Agendamento</h2>
+                <button class="btn-fechar" onclick="fecharModal()">$times;</button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Laboratorio:</strong><span id="modal-lab-nome"></span></p>
+                <p><strong>Data:</strong><span id="modal-data"></span></p>
+                <p><strong>Horario:</strong><span id="modal-horario"></span></p>
+
+                <form id="form-reserva" onsubmit="salvarAgendamento(event)">
+                    <div class="form-group">
+                        <label for="responsavel">Seu Nome / Professor:</label>
+                        <input type="text" id="responsavel" required placeholder="Prof. Carlos">
+                    </div>
+                    <div class="form-group">
+                        <label for="finalidade">Finalidade do Uso:</label>
+                        <input type="text" id="finalidade" required placeholder="Aula de Matematica">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn" type="button" onclick="fecharModal()">Cancelar</button>
+                        <button class="btn btn-success" type="submit">Confirmar Reserva</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <footer class="rodape">Desenvolvido por Rafael Grillo - 2026</footer>
+    <script src="../js/agenda.js"></script>
+</body>
+</html>

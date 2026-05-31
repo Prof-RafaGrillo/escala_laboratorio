@@ -1,0 +1,203 @@
+.logo {
+    display: flex;
+
+}
+
+
+.agenda-container {
+    display: block;
+    padding: 20px;
+    gap: 20px;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 280px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+}
+
+.filtro-bloco,
+.legenda-bloco {
+    margin-bottom: 30px;
+}
+
+.filtro-bloco select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #cccccc;
+}
+
+.legenda-item {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.legenda-item .cor {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.status-livre {
+    background-color: rgba(40, 167, 69, 0.15);
+    border: 1px solid #28a745;
+}
+
+.status-reservado {
+    background-color: #A0A0A0;
+}
+
+.status-manutencao {
+    background-color: #FF9F43;
+}
+
+/* Área do Calendário */
+.calendario-area {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    height: 320px;
+    
+    
+}
+/* Força a centralização em toda a estrutura interna do evento */
+.fc-timegrid-event .fc-event-main,
+.fc-timegrid-event .fc-event-main-frame,
+.fc-timegrid-event .fc-event-title-container,
+.fc-timegrid-event .fc-event-title {
+    display: flex !important;
+    align-items: center !important;      /* Centraliza verticalmente */
+    justify-content: center !important;  /* Centraliza horizontalmente */
+    text-align: center !important;       /* Centraliza o texto se quebrar linha */
+    height: 100% !important;             /* Força a preencher a altura toda */
+    width: 100% !important;              /* Força a preencher a largura toda */
+    box-sizing: border-box !important;
+    padding: 2px 5px !important;
+}
+
+/* Remove um comportamento padrão do FullCalendar que joga o texto para o topo */
+.fc-timegrid-event .fc-event-title.fc-sticky {
+    position: static !important; 
+}
+
+/* Customização sutil do FullCalendar para parecer com nossa imagem */
+.fc-timegrid-slot {
+    height: 80px important;
+    /* Aumenta a altura física das linhas de hora */
+}
+
+
+
+.fc-theme-standard td,
+.fc-theme-standard th {
+    border: 1px solid #eef2f5 !important;
+}
+.fc-button-group{
+    margin: 10px 0;
+}
+#calendar{
+    height: 100%;
+    width: 100%;
+    
+}
+.fc-button-primary{
+    margin-right: 10px;
+}
+
+/* Estrutura do Modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    /* Começa escondido */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    width: 450px;
+    max-width: 90%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+}
+
+.btn-fechar {
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .agenda-container {
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+        height: calc(100vh - 160px);
+}
+    .sidebar{
+        margin: 0;
+    }
+    .calendario-area{
+        height: auto;
+    }
+    #calendar{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+}
+    
+    
+}

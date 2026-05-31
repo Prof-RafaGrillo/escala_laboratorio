@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-fundo: #f0f5fb;
+    --cor-cabecalho: #eef5fb;
+    --cor-rodape: #90bcf3;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-fundo);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.cabecalho{
+    padding: 20px 25px;
+    background-color: var(--cor-cabecalho);
+    box-shadow: 0 5px 10px #7c9db9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho img{
+    width: 25px;
+}
+.principal{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.principal h1{
+    margin-bottom: 25px;
+}
+.principal-botoes{
+    display: flex;
+    flex-direction: column;
+}
+.rodape{
+   background-color: var(--cor-rodape);
+   text-align: center;
+   padding: 15px;
+   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .principal{
+        font-size: 36px;
+    }
+}
