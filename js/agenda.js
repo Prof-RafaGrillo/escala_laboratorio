@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //Pega os parametros da URL(ex: ?lab1)
     const parametrosURL = new URLSearchParams(window.location.search)
-    const labIdAtivo = parametrosURL.get('lab') || "1";
+    labIdAtivo = parametrosURL.get('lab') || "1";
 
     document.getElementById('select-lab').value = labIdAtivo
     document.getElementById('nome-lab').innerHTML = `${labIdAtivo}`
