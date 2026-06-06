@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
 
         events: function(info, successCallback, failureCallback) {
-            const pedidoBanco = fetch(`http://127.0.0.1:8000/api/agendamentos?lab_id=${labIdAtivo}`)
+            const pedidoBanco = fetch(`https://escala-laboratorio.onrender.com/api/agendamentos?lab_id=${labIdAtivo}`)
                 .then(res => res.ok ? res.json() : []); 
                 
             const pedidoJson = fetch('../data/horarios_fixos.json')
