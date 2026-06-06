@@ -1,65 +1,124 @@
 let calendar;
-let labIdAtivo = null
+let labIdAtivo = null;
+let infoSelecaoAtual = null;
 
-
-//Executa o codigo assim que a pagina agenda.html 'e carregada
+// Executa o codigo assim que a pagina agenda.html é carregada
 document.addEventListener("DOMContentLoaded", () => {
 
-    //Pega os parametros da URL(ex: ?lab1)
-    const parametrosURL = new URLSearchParams(window.location.search)
+    // 1. Pega os parametros da URL(ex: ?lab=5). Se não tiver nada, força ser o "1"
+    const parametrosURL = new URLSearchParams(window.location.search);
     labIdAtivo = parametrosURL.get('lab') || "1";
+   
+    const select = document.getElementById('select-lab');
+    
+    // Mapeia nomes amigáveis para o título da tela
+    const nomesDosLaboratorios = {
+        "1": "Laboratório 1 (Manhã)",
+        "2": "Laboratório 2 (Manhã)",
+        "3": "Laboratório de Ciências (Manhã)",
+        "4": "Tablets (Manhã)",
+        "5": "Laboratório 1 (Tarde)",
+        "6": "Laboratório 2 (Tarde)",
+        "7": "Laboratório de Ciências (Tarde)",
+        "8": "Tablets (Tarde)"
+    };
 
-    document.getElementById('select-lab').value = labIdAtivo
-    document.getElementById('nome-lab').innerHTML = `${labIdAtivo}`
-    console.log(labIdAtivo)
+    // 2. Muda fisicamente a opção selecionada no HTML para bater com a URL
+    select.value = labIdAtivo;
 
-    //Inicializar o FullCalendar
-    const calendarEl = document.getElementById('calendar')
-
+    // Inicializar o FullCalendar PRIMEIRO, antes do Select mudar os horários dele
+    const calendarEl = document.getElementById('calendar');
     const visaoInicial = window.innerWidth < 768 ? 'timeGridDay' : 'timeGridWeek';
 
     calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: visaoInicial, // Visão semanal com grade de horários
+        initialView: visaoInicial,
         height:"100%",
-        locale: 'pt-br', // Força o idioma para português
+        locale: 'pt-br',
         expandRows: true,
         displayEventTime:false,
-        selectLongPressDelay: 0, // Remove o atraso de "segurar" no celular e ativa com 1 toque
+        selectLongPressDelay: 0,
         headerToolbar: {
             left: 'prev,next today',
             center: 'title',
-            right: window.innerWidth < 768 ? '' : '' // Deixamos limpo conforme seu padrão
+            right: ''
         },
-        hiddenDays: [0, 6], // Oculta Domingo (0) e Sábado (6)
-        // --- INÍCIO DAS ALTERAÇÕES ---
-        // Cria um espaço interno de exatamente 6 blocos (das 07h às 13h)
+        hiddenDays: [0, 6], 
         slotMinTime: '07:00:00', 
         slotMaxTime: '13:00:00', 
         slotDuration: '01:00:00', 
         allDaySlot: false, 
         selectable: true, 
 
-        // A MÁGICA: Substitui o texto "07:00" por "1ª Aula", "08:00" por "2ª Aula", etc.
+        // Substitui a hora pelo número da aula
         slotLabelContent: function(arg) {
             let hora = arg.date.getHours();
-            let numeroDaAula = hora - 6; // Se a hora interna for 7, vira 1.
-            return { html: `<b>${numeroDaAula}ª Aula</b>` };
+            if(hora < 13){
+                let numeroDaAula = hora - 6; 
+                return { html: `<b>${numeroDaAula}ª Aula</b>` };
+            } else {
+                let numeroDaAula = hora - 12; 
+                return { html: `<b>${numeroDaAula}ª Aula</b>` };
+            }
         },
-        // --- FIM DAS ALTERAÇÕES ---
-        allDaySlot: false, // Remove a linha de "o dia todo"
-        selectable: true, // Permite clicar nos horários vagos
 
-        // Evento disparado quando o usuário clica em um horário VAGO
+        events: function(info, successCallback, failureCallback) {
+            const pedidoBanco = fetch(`http://127.0.0.1:8000/api/agendamentos?lab_id=${labIdAtivo}`)
+                .then(res => res.ok ? res.json() : []); 
+                
+            const pedidoJson = fetch('../data/horarios_fixos.json')
+                .then(res => res.ok ? res.json() : []);
+
+            Promise.all([pedidoBanco, pedidoJson])
+                .then(([dadosDoBanco, todosOsFixos]) => {
+                    const listaBanco = Array.isArray(dadosDoBanco) ? dadosDoBanco : [];
+                    const listaFixos = Array.isArray(todosOsFixos) ? todosOsFixos : [];
+
+                    const eventosDoBancoFormatados = listaBanco.map(item => ({
+                        id: item.id,
+                        title: `${item.responsavel}\n(${item.finalidade})`,
+                        start: item.start,
+                        end: item.end
+                    }));
+
+                    const fixosDoLabAtual = listaFixos.filter(evento => String(evento.lab_id) === String(labIdAtivo));
+                    const todosOsEventos = [...eventosDoBancoFormatados, ...fixosDoLabAtual];
+                    
+                    successCallback(todosOsEventos);
+                })
+                .catch(error => {
+                    console.error("Erro crítico ao carregar dados:", error);
+                    failureCallback(error);
+                });
+        },
+
         select: function (info) {
+            infoSelecaoAtual = info;
             abrirModalParaReserva(info);
         },
-
-        // Carrega os dados simulados
-        events: obterEventosSimulados(labIdAtivo)
     });
 
     calendar.render();
-    // Ouvinte: Se o usuário mudar o tamanho da tela (ou girar o celular)
+
+    // 3. AGORA SIM: Registra o evento de mudança no Select
+    select.addEventListener('change', function(e) {
+        labIdAtivo = e.target.value;
+        alteraTituloLab(nomesDosLaboratorios, labIdAtivo);
+        
+        if (parseInt(labIdAtivo) >= 5) {
+            calendar.setOption('slotMinTime', '13:00:00');
+            calendar.setOption('slotMaxTime', '19:00:00');
+        } else {
+            calendar.setOption('slotMinTime', '07:00:00');
+            calendar.setOption('slotMaxTime', '13:00:00');
+        }
+        
+        calendar.refetchEvents(); 
+    });
+
+    // 4. E por fim, "finge" um clique no select para aplicar as regras da primeira vez
+    select.dispatchEvent(new Event('change'));
+    
+    // Ouvinte de Resize
     window.addEventListener('resize', () => {
         if (window.innerWidth < 768 && calendar.view.type !== 'timeGridDay') {
             calendar.changeView('timeGridDay');
@@ -67,36 +126,29 @@ document.addEventListener("DOMContentLoaded", () => {
             calendar.changeView('timeGridWeek');
         }
     });
-})
-
-
-// Ações de Navegação e Modais
-function mudarLaboratorio(novoId) {
-    window.location.href = `agenda.html?lab=${novoId}`;
-}
+});
 
 function abrirModalParaReserva(info) {
     document.getElementById('modal-lab-nome').innerText = `Laboratório ${labIdAtivo}`;
     
-    // Pega a data e formata
     const dataFormatada = info.start.toLocaleDateString('pt-BR');
-    
-    // Descobre em qual aula o usuário clicou baseando-se na hora interna
     const horaInterna = info.start.getHours();
-    const aulaClicada = horaInterna - 6; 
+    
+    // CORREÇÃO: Aplica a mesma regra da manhã/tarde para não exibir "7ª Aula" no modal
+    let aulaClicada = 0;
+    if (horaInterna < 13) {
+        aulaClicada = horaInterna - 6; 
+    } else {
+        aulaClicada = horaInterna - 12;
+    }
 
     document.getElementById('modal-data').innerText = dataFormatada;
-    
-    // Atualiza o modal para mostrar "1ª Aula" em vez de "07:00 às 08:00"
     document.getElementById('modal-horario').innerText = `${aulaClicada}ª Aula`;
 
-    // Guarda os dados brutos no formulário para uso no salvamento
     document.getElementById('form-reserva').dataset.start = info.startStr;
     document.getElementById('form-reserva').dataset.end = info.endStr;
 
     document.getElementById('modal-agendamento').style.display = 'flex';
-   
-
 }
 
 function fecharModal() {
@@ -105,69 +157,38 @@ function fecharModal() {
 }
 
 function salvarAgendamento(event) {
-    event.preventDefault(); // Impede a página de recarregar
+    event.preventDefault(); 
 
-    const responsavel = document.getElementById('responsavel').value;
-    const finalidade = document.getElementById('finalidade').value;
-    const start = document.getElementById('form-reserva').dataset.start;
-    const end = document.getElementById('form-reserva').dataset.end;
+    const professor = document.getElementById('responsavel').value;
+    const atividade = document.getElementById('finalidade').value;
+  
+    const dadosParaSalvar = {
+        lab_id: labIdAtivo,
+        responsavel: professor,
+        finalidade: atividade,
+        start: infoSelecaoAtual.startStr, 
+        end: infoSelecaoAtual.endStr
+    };
 
-    // Adiciona o novo evento visualmente no FullCalendar
-    calendar.addEvent({
-        title: `RESERVADO: ${responsavel} (${finalidade})`,
-        start: start,
-        end: end,
-        color: '#A0A0A0' // Fica cinza pois agora está ocupado
-    });
-
-    alert("Reserva realizada com sucesso (Simulação)!");
-    fecharModal();
+    fetch('http://127.0.0.1:8000/api/agendamentos', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(dadosParaSalvar)
+    })
+    .then(response => {
+        if (response.ok) {
+            alert("Agendamento realizado com sucesso!");
+            calendar.refetchEvents(); 
+            fecharModal(); 
+        } else {
+            alert("Erro ao salvar o agendamento.");
+        }
+    })
+    .catch(error => console.error("Erro na requisição POST:", error));
 }
 
-function obterEventosSimulados(labId) {
-    // ---- EVENTOS FIXOS (Se repetem toda semana) ----
-    
-    // Exemplo: Toda Segunda-feira (dia 1), na 1ª Aula (07:00 às 08:00)
-    const aulaFixaSegunda = {
-        title: 'FIXO: Prof. Marcos (Algoritmos)',
-        daysOfWeek: [1], // 1 = Segunda-feira
-        startTime: '07:00:00', // 1ª Aula
-        endTime: '08:00:00',
-        color: '#718096', // Uma cor cinza escuro para diferenciar de reservas temporárias
-    };
-
-    // Exemplo: Toda Quarta e Sexta (dias 3 e 5), na 3ª e 4ª Aula (09:00 às 11:00)
-    const laboratorioFechadoFixo = {
-        title: 'FIXO: Manutenção Preventiva',
-        daysOfWeek: [3, 5], // 3 = Quarta, 5 = Sexta
-        startTime: '09:00:00', // Começa na 3ª Aula
-        endTime: '11:00:00',   // Ocupa a 3ª e a 4ª Aula (termina quando começa a 5ª)
-        color: '#FF9F43', // Vermelho para indicar bloqueio fixo
-    };
-
-
-    // ---- LÓGICA DE RETORNO POR LABORATÓRIO ----
-    
-    if (labId === "1") {
-        return [
-            aulaFixaSegunda, 
-            laboratorioFechadoFixo,
-            // Você ainda pode misturar com eventos que acontecem apenas em um dia específico se quiser:
-            {
-                title: 'RESERVA CASUAL: Profª Ana',
-                start: '2026-06-01T11:00:00', // Apenas neste dia específico
-                end: '2026-06-01T12:00:00',
-                color: '#A0A0A0'
-            }
-        ];
-    }
-    
-    if (labId === "2") {
-        return [
-            // O Lab 2 pode ter apenas a manutenção fixa
-            laboratorioFechadoFixo 
-        ];
-    }
-
-    return []; // Outros laboratórios começam vazios
+function alteraTituloLab(nomesDosLaboratorios, labIdAtivo){
+    document.getElementById('nome-lab').innerText = nomesDosLaboratorios[labIdAtivo] || `Laboratório ${labIdAtivo}`;
 }

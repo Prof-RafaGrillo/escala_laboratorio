@@ -39,8 +39,7 @@ body{
     margin-bottom: 25px;
 }
 .principal-botoes{
-    display: flex;
-    flex-direction: column;
+    display: block;   
 }
 .rodape{
    background-color: var(--cor-rodape);
@@ -49,8 +48,22 @@ body{
    width: 100%;
 }
 
+.botoes-manha, .botoes-tarde{
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (min-width: 768px) {
     .principal{
         font-size: 36px;
     }
+    .principal-botoes{
+    display: flex;   
+}
+    .botoes-manha, .botoes-tarde{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
 }
