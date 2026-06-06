@@ -170,7 +170,7 @@ function salvarAgendamento(event) {
         end: infoSelecaoAtual.endStr
     };
 
-    fetch('http://127.0.0.1:8000/api/agendamentos', {
+    fetch('https://escala-laboratorio.onrender.com/api/agendamentos', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
