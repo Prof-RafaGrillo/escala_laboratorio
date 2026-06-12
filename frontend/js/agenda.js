@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         select: function (info) {
             infoSelecaoAtual = info;
-            abrirModalParaReserva(info);
+            abrirModalParaReserva(info, nomesDosLaboratorios, labIdAtivo);
         },
         eventClick: function(info){
             abrirModalParaExcluir(info.event)
@@ -142,8 +142,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-function abrirModalParaReserva(info) {
-    document.getElementById('modal-lab-nome').innerText = `${nomesDosLaboratorios[labIdAtivo]}`;
+function abrirModalParaReserva(info, nomesDosLaboratorios, labIdAtivo) {
+    document.getElementById('modal-lab-nome').innerText = nomesDosLaboratorios[labIdAtivo];
     
     const dataFormatada = info.start.toLocaleDateString('pt-BR');
     const horaInterna = info.start.getHours();
