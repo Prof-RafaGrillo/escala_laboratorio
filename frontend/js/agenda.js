@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
 
         events: function(info, successCallback, failureCallback) {
-            const pedidoBanco = fetch(`https://backend-e53fc75d.fastapicloud.dev//api/agendamentos?lab_id=${labIdAtivo}`)
+            const pedidoBanco = fetch(`https://backend-e53fc75d.fastapicloud.dev/api/agendamentos?lab_id=${labIdAtivo}`)
                 .then(res => res.ok ? res.json() : []); 
                 console.log(pedidoBanco)
             const pedidoJson = fetch('../data/horarios_fixos.json')
@@ -170,7 +170,7 @@ function salvarAgendamento(event) {
         end: infoSelecaoAtual.endStr
     };
 
-    fetch('https://backend-e53fc75d.fastapicloud.dev//api/agendamentos', {
+    fetch('https://backend-e53fc75d.fastapicloud.dev/api/agendamentos', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
