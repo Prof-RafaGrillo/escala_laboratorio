@@ -49,6 +49,17 @@ document.addEventListener("DOMContentLoaded", () => {
         allDaySlot: false, 
         selectable: true, 
 
+        //tela de carregamento
+        loading: function(estaCarregando){
+            const telaLoader = document.getElementById('tela-carregamento')
+            if(estaCarregando){
+                telaLoader.style.display = 'flex';
+            }else {
+                telaLoader.style.display = 'none'
+            }
+        },
+
+
         // Substitui a hora pelo número da aula
         slotLabelContent: function(arg) {
             let hora = arg.date.getHours();
