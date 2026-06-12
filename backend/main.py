@@ -1,21 +1,36 @@
 import os
 from dotenv import load_dotenv
 from typing import Optional, List
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from sqlmodel import Field, SQLModel, create_engine, Session, select
 
 #carregar as variaveis de dentro do arquivo .env
 load_dotenv()
 #PUXA A URL
+
+#=========================================URL do servidor online
 DATABASE_URL = os.getenv("DATABASE_URL")
 #1. Definicao do Modelo (A receita da sua tabela)
+
+#=========================================URL do servidor local
+#DATABASE_URL = "sqlite:///database.db"
 
 
 # Adicione isso temporariamente para investigarmos
 print("----- DEBUG DO BANCO -----")
 print("URL carregada:", DATABASE_URL)
 print("--------------------------")
+
+
+#2. Configuracao da conexao
+#Dizemos ao Python  para criar um arquivo chamado banco.db localmente
+
+#=========================== BANCO NEON
+engine = create_engine(DATABASE_URL)
+
+#========================== BANCO LOCAL
+#engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 
 
 class Agendamento(SQLModel, table= True):
@@ -25,13 +40,11 @@ class Agendamento(SQLModel, table= True):
     finalidade: str #Materia ou atividade
     start: str #Data de inicio
     end: str #Data de termino
+    fixo: bool = Field(default=False) # Se não for preenchido, nasce como False (não-fixo)
 
 
-#2. Configuracao da conexao
-#Dizemos ao Python  para criar um arquivo chamado banco.db localmente
 
 
-engine = create_engine(DATABASE_URL)
 
 #Funcao auxiliar que are a sessao com o banco e fecha automaticamente quando a rota termina
 def get_session():
@@ -84,3 +97,27 @@ def listar_agendamentos(lab_id: str, session: Session = Depends(get_session)):
     resultados = session.exec(statement).all()
 
     return resultados
+
+#Rota 4: 
+@app.delete("/api/agendamentos/{agendamento_id}", status_code=200)
+def deletar_agendamentos(agendamento_id:int, db: Session = Depends(get_session)):
+    #1.Busca o agendamento pelo ID exato
+    agendamento = db.get(Agendamento, agendamento_id)
+
+    #2. Valida se ele realmente existe no banco
+    if not agendamento:
+        raise HTTPException(
+            status_code = 404,
+            detail="Agendamento nao encontrado"
+        )
+    #3. Aplica a sua regra de negocio usando o campo novo
+    if agendamento.fixo:
+        raise HTTPException(
+            status_code = 400,
+            detail="Este 'e um agendamento fixo e nao pode ser deletado!"
+        )
+    #4. Se passou pelas validacoes, deleta
+    db.delete(agendamento)
+    db.commit()
+
+    return{"message": "Agendamento excluido com sucesso!"}
