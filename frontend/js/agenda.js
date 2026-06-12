@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function abrirModalParaReserva(info) {
-    document.getElementById('modal-lab-nome').innerText = `Laboratório ${labIdAtivo}`;
+    document.getElementById('modal-lab-nome').innerText = `${nomesDosLaboratorios[labIdAtivo]}`;
     
     const dataFormatada = info.start.toLocaleDateString('pt-BR');
     const horaInterna = info.start.getHours();

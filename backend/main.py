@@ -77,7 +77,7 @@ def on_startup():
 
 @app.get("/")
 def ler_raiz():
-    return{"Mensagem": "O backend do LAB_INFO est'a vivo! e o banco de dados foi configurado"}
+    return{"Mensagem": "O backend do LAB_INFO está vivo! e o banco de dados foi configurado"}
 
 #ROTA 2: Criar um novo agendamento (POST)
 @app.post("/api/agendamentos", response_model=Agendamento)
@@ -108,16 +108,16 @@ def deletar_agendamentos(agendamento_id:int, db: Session = Depends(get_session))
     if not agendamento:
         raise HTTPException(
             status_code = 404,
-            detail="Agendamento nao encontrado"
+            detail="Agendamento não encontrado"
         )
     #3. Aplica a sua regra de negocio usando o campo novo
     if agendamento.fixo:
         raise HTTPException(
             status_code = 400,
-            detail="Este 'e um agendamento fixo e nao pode ser deletado!"
+            detail="Este é um agendamento fixo e nao pode ser deletado!"
         )
     #4. Se passou pelas validacoes, deleta
     db.delete(agendamento)
     db.commit()
 
-    return{"message": "Agendamento excluido com sucesso!"}
+    return{"message": "Agendamento excluído com sucesso!"}
