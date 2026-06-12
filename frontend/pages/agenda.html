@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda do Laboratorio</title>
+    <title>Agenda do Laboratório</title>
     <script src=" https://cdn.jsdelivr.net/npm/fullcalendar@6.1.20/index.global.min.js "></script>
 
     <link rel="stylesheet" href="../css/reset.css">
@@ -17,16 +17,16 @@
         <div class="logo">
             <a href="../index.html" class="btn-voltar"><img src="../assets/icons/arrow-right-svgrepo-com.svg"
                     alt=""></a>
-            <h1>LAB_INFO :: <span id="nome-lab">Laboratorio</span></h1>
+            <h1>LAB_INFO :: <span id="nome-lab">Laboratório</span></h1>
         </div>
         <div class="user-info">
-            <p>Acesso Publico</p>
+            <p>Acesso Público</p>
         </div>
     </header>
     <div class="agenda-container">
         <aside class="sidebar">
             <div class="filtro-bloco">
-                <label for="select-lab">Laboratorio Ativo:</label>
+                <label for="select-lab">Laboratório Ativo:</label>
                 <select id="select-lab" class="form-select">
                     <option value="1">Laboratório 1 - Manhã</option>
                     <option value="2">Laboratório 2 - Manhã</option>
@@ -40,10 +40,10 @@
                 </select>
             </div>
             <div class="legenda-bloco">
-                <h3>Status de Horario</h3>
+                <h3>Status de Horário</h3>
                 <div class="legenda-item"><span class="cor status-livre"></span>Livre (Clique na grade)</div>
                 <div class="legenda-item"><span class="cor status-reservado"></span>Reservado / Ocupado</div>
-                <div class="legenda-item"><span class="cor status-manutencao"></span> Manutencao</div>
+                <div class="legenda-item"><span class="cor status-manutencao"></span> Manutenção</div>
             </div>
         </aside>
         <main class="principal calendario-area">
@@ -56,9 +56,9 @@
                 <h2>NOVO AGENDAMENTO</h2>
             </div>
             <div class="modal-body">
-                <p><strong>Laboratorio:</strong><span id="modal-lab-nome"></span></p>
+                <p><strong>Laboratório:</strong><span id="modal-lab-nome"></span></p>
                 <p><strong>Data:</strong><span id="modal-data"></span></p>
-                <p><strong>Horario:</strong><span id="modal-horario"></span></p>
+                <p><strong>Horário:</strong><span id="modal-horario"></span></p>
 
                 <form id="form-reserva" onsubmit="salvarAgendamento(event)">
                     <div class="form-group">
