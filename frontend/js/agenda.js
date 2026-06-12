@@ -95,6 +95,9 @@ document.addEventListener("DOMContentLoaded", () => {
             infoSelecaoAtual = info;
             abrirModalParaReserva(info);
         },
+        eventClick: function(info){
+            abrirModalParaExcluir(info.event)
+        }
     });
 
     calendar.render();
@@ -192,3 +195,30 @@ function salvarAgendamento(event) {
 function alteraTituloLab(nomesDosLaboratorios, labIdAtivo){
     document.getElementById('nome-lab').innerText = nomesDosLaboratorios[labIdAtivo] || `Laboratório ${labIdAtivo}`;
 }
+
+function abrirModalParaExcluir(eventoClicado){
+    if(!eventoClicado.id){
+        alert("Este e um horario fixo e nao pode ser alterado ou deletado!")
+        return
+    }
+
+    if(confirm(`Deseja excluir o agendamento de ${eventoClicado.title}`)){
+        fetch(`https://backend-e53fc75d.fastapicloud.dev/api/agendamentos/${eventoClicado.id}`, {
+            method: 'DELETE'
+        })
+        .then(response => {
+            if (response.ok) {
+                alert("Agendamento excluído com sucesso!");
+                calendar.refetchEvents(); // O FullCalendar vai buscar os dados atualizados sozinhos!
+            } else {
+                // Se o backend recusar por alguma outra regra, avisa aqui
+                return response.json().then(erro => { alert(`Erro: ${erro.detail}`); });
+            }
+        })
+        .catch(error => {
+            console.error("Erro ao deletar:", error);
+            alert("Não foi possível conectar ao servidor para excluir.");
+        });
+    }
+}
+ 
