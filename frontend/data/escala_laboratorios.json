@@ -1,0 +1,938 @@
+[
+  {
+    "lab_id": "1",
+    "title": "L PORT 3B",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "REC MAT 3B",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "MAT 2B",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "L PORT 1B",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "REC LP 3B",
+    "daysOfWeek": [
+      5
+    ],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "MAT 1C",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "L PORT 2A",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "MAT 9A",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "L PORT 2E",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "L PORT 9B",
+    "daysOfWeek": [
+      5
+    ],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "L PORT 3A",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "09:20:00",
+    "endTime": "10:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "L PORT 2C",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "09:20:00",
+    "endTime": "10:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "L PORT 2D",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "09:20:00",
+    "endTime": "10:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "MAT 8B",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "09:20:00",
+    "endTime": "10:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "L PORT 9A",
+    "daysOfWeek": [
+      5
+    ],
+    "startTime": "09:20:00",
+    "endTime": "10:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "MAT 1B",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "REC LP 3C",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "MAT 2D",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "MAT 8A",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "L PORT 1A",
+    "daysOfWeek": [
+      5
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "MAT 1A",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "MAT 9B",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "L PORT 2B",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "R LEI 8B",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "L PORT 3C",
+    "daysOfWeek": [
+      5
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "MAT 2E",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "MAT 2A",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "MAT 2C",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "R LEI 8A",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "L PORT 1D",
+    "daysOfWeek": [
+      5
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "MAT II 3C",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "PROG 2E",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "ING 8B",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "ING 2D",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "DIG RB 9A",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "DIG IA 1B",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "ING 3B",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "REC LP 3A",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "DIG RB 9B",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "09:20:00",
+    "endTime": "10:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "DIG IA 1A",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "09:20:00",
+    "endTime": "10:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "PROG 2D",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "09:20:00",
+    "endTime": "10:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "L PORT 1C",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "09:20:00",
+    "endTime": "10:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "DIA IA 1C",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "DIG IA 1A",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "DIG RB 9B",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "ING 8A",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "DIG IA 1D",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "PROG 2D",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "DIG IA 1D",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "DIG RB 9A",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "REC MAT 3A",
+    "daysOfWeek": [
+      5
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "DIG 1A 1B",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "DIG IA 1C",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "MAT II 3C",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "PROG 2E",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "REC MAT 3C",
+    "daysOfWeek": [
+      5
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ROBOT 2D",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ING 9B",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ING 2B",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ROBOT 2D",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "DIG RB 8A",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ING 1A",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "09:20:00",
+    "endTime": "10:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "DIG RB 8A",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "09:20:00",
+    "endTime": "10:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ROBOT 2E",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "09:20:00",
+    "endTime": "10:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ING 2C",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ING 3A",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ING 1C",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "MAT 1D",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ROBOT 2E",
+    "daysOfWeek": [
+      5
+    ],
+    "startTime": "10:20:00",
+    "endTime": "11:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "FIS III 3C",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ING 9A",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ING 1B",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "DIG RB 8B",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "11:20:00",
+    "endTime": "12:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "FIS III 3C",
+    "daysOfWeek": [
+      1
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ING 2E",
+    "daysOfWeek": [
+      2
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ING 1D",
+    "daysOfWeek": [
+      3
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "ING 2A",
+    "daysOfWeek": [
+      4
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "3",
+    "title": "DIG RB 8B",
+    "daysOfWeek": [
+      5
+    ],
+    "startTime": "12:20:00",
+    "endTime": "13:20:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  }
+]
