@@ -363,7 +363,7 @@
     "lab_id": "2",
     "title": "MAT II 3C",
     "daysOfWeek": [
-      1
+      2
     ],
     "startTime": "07:00:00",
     "endTime": "08:00:00",
@@ -375,7 +375,7 @@
     "lab_id": "2",
     "title": "PROG 2E",
     "daysOfWeek": [
-      2
+      3
     ],
     "startTime": "07:00:00",
     "endTime": "08:00:00",
@@ -387,7 +387,7 @@
     "lab_id": "2",
     "title": "ING 8B",
     "daysOfWeek": [
-      3
+      4
     ],
     "startTime": "07:00:00",
     "endTime": "08:00:00",
@@ -399,7 +399,7 @@
     "lab_id": "2",
     "title": "ING 2D",
     "daysOfWeek": [
-      4
+      5
     ],
     "startTime": "07:00:00",
     "endTime": "08:00:00",
@@ -423,7 +423,7 @@
     "lab_id": "2",
     "title": "DIG IA 1B",
     "daysOfWeek": [
-      2
+      3
     ],
     "startTime": "08:00:00",
     "endTime": "09:00:00",
@@ -435,7 +435,7 @@
     "lab_id": "2",
     "title": "ING 3B",
     "daysOfWeek": [
-      3
+      4
     ],
     "startTime": "08:00:00",
     "endTime": "09:00:00",
@@ -447,7 +447,7 @@
     "lab_id": "2",
     "title": "REC LP 3A",
     "daysOfWeek": [
-      4
+      5
     ],
     "startTime": "08:00:00",
     "endTime": "09:00:00",
@@ -483,7 +483,7 @@
     "lab_id": "2",
     "title": "PROG 2D",
     "daysOfWeek": [
-      3
+      4
     ],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -495,7 +495,7 @@
     "lab_id": "2",
     "title": "L PORT 1C",
     "daysOfWeek": [
-      4
+      5
     ],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -531,7 +531,7 @@
     "lab_id": "2",
     "title": "DIG RB 9B",
     "daysOfWeek": [
-      3
+      4
     ],
     "startTime": "10:00:00",
     "endTime": "11:00:00",
@@ -543,7 +543,7 @@
     "lab_id": "2",
     "title": "ING 8A",
     "daysOfWeek": [
-      4
+      5
     ],
     "startTime": "10:00:00",
     "endTime": "11:00:00",
@@ -675,7 +675,7 @@
     "lab_id": "3",
     "title": "ROBOT 2D",
     "daysOfWeek": [
-      1
+      2
     ],
     "startTime": "07:00:00",
     "endTime": "08:00:00",
@@ -687,7 +687,7 @@
     "lab_id": "3",
     "title": "ING 9B",
     "daysOfWeek": [
-      2
+      5
     ],
     "startTime": "07:00:00",
     "endTime": "08:00:00",
@@ -723,7 +723,7 @@
     "lab_id": "3",
     "title": "DIG RB 8A",
     "daysOfWeek": [
-      3
+      4
     ],
     "startTime": "08:00:00",
     "endTime": "09:00:00",
@@ -735,7 +735,7 @@
     "lab_id": "3",
     "title": "ING 1A",
     "daysOfWeek": [
-      1
+      3
     ],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -747,7 +747,7 @@
     "lab_id": "3",
     "title": "DIG RB 8A",
     "daysOfWeek": [
-      2
+      4
     ],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -759,7 +759,7 @@
     "lab_id": "3",
     "title": "ROBOT 2E",
     "daysOfWeek": [
-      3
+      5
     ],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -843,7 +843,7 @@
     "lab_id": "3",
     "title": "ING 9A",
     "daysOfWeek": [
-      2
+      3
     ],
     "startTime": "11:00:00",
     "endTime": "12:00:00",
@@ -855,7 +855,7 @@
     "lab_id": "3",
     "title": "ING 1B",
     "daysOfWeek": [
-      3
+      4
     ],
     "startTime": "11:00:00",
     "endTime": "12:00:00",
@@ -867,7 +867,7 @@
     "lab_id": "3",
     "title": "DIG RB 8B",
     "daysOfWeek": [
-      4
+      5
     ],
     "startTime": "11:00:00",
     "endTime": "12:00:00",
