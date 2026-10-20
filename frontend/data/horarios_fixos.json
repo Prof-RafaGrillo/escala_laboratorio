@@ -1,4 +1,4 @@
-  [
+[
   {
     "lab_id": "1",
     "title": "8B-L PORT",
@@ -13,16 +13,6 @@
     "lab_id": "1",
     "title": "1C-MAT",
     "daysOfWeek": [3],
-    "startTime": "07:00:00",
-    "endTime": "08:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "1",
-    "title": "1D-ING",
-    "daysOfWeek": [5],
     "startTime": "07:00:00",
     "endTime": "08:00:00",
     "color": "#6c757d",
@@ -49,7 +39,6 @@
     "editable": false,
     "fixo": true
   },
- 
   {
     "lab_id": "1",
     "title": "9A-REC MAT",
@@ -92,7 +81,7 @@
   },
   {
     "lab_id": "1",
-    "title": "3B - MAT",
+    "title": "3B-MAT",
     "daysOfWeek": [3],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -102,7 +91,7 @@
   },
   {
     "lab_id": "1",
-    "title": "1A - MAT",
+    "title": "1A-MAT",
     "daysOfWeek": [4],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -362,7 +351,7 @@
   },
   {
     "lab_id": "2",
-    "title": "1B - DIG IA",
+    "title": "1B-DIG IA",
     "daysOfWeek": [4],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -382,7 +371,7 @@
   },
   {
     "lab_id": "2",
-    "title": "1D - DIG IA",
+    "title": "1D-DIG IA",
     "daysOfWeek": [2],
     "startTime": "10:00:00",
     "endTime": "11:00:00",
@@ -412,7 +401,7 @@
   },
   {
     "lab_id": "2",
-    "title": "9B-MAT 9B",
+    "title": "9B-MAT",
     "daysOfWeek": [2],
     "startTime": "11:00:00",
     "endTime": "12:00:00",
@@ -502,7 +491,7 @@
   },
   {
     "lab_id": "3",
-    "title": "8B-DIB RG",
+    "title": "8B-DIG RB",
     "daysOfWeek": [2],
     "startTime": "08:00:00",
     "endTime": "09:00:00",
@@ -522,7 +511,7 @@
   },
   {
     "lab_id": "3",
-    "title": "8B-DIB RG",
+    "title": "8B-DIG RB",
     "daysOfWeek": [2],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -662,28 +651,18 @@
   },
   {
     "lab_id": "4",
-    "title": "8B-ING",
-    "daysOfWeek": [1],
-    "startTime": "09:00:00",
-    "endTime": "10:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "4",
-    "title": "8A-ING",
-    "daysOfWeek": [1],
-    "startTime": "11:00:00",
-    "endTime": "12:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "4",
     "title": "2C-ING",
     "daysOfWeek": [2],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "4",
+    "title": "9A-ING",
+    "daysOfWeek": [5],
     "startTime": "07:00:00",
     "endTime": "08:00:00",
     "color": "#6c757d",
@@ -702,16 +681,6 @@
   },
   {
     "lab_id": "4",
-    "title": "3B-ING",
-    "daysOfWeek": [2],
-    "startTime": "12:00:00",
-    "endTime": "13:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "4",
     "title": "1C-ING",
     "daysOfWeek": [4],
     "startTime": "08:00:00",
@@ -722,30 +691,10 @@
   },
   {
     "lab_id": "4",
-    "title": "1A-ING",
-    "daysOfWeek": [4],
-    "startTime": "11:00:00",
-    "endTime": "12:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "4",
-    "title": "1B-ING",
-    "daysOfWeek": [4],
-    "startTime": "12:00:00",
-    "endTime": "13:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "4",
-    "title": "9A-ING",
-    "daysOfWeek": [5],
-    "startTime": "07:00:00",
-    "endTime": "08:00:00",
+    "title": "8B-ING",
+    "daysOfWeek": [1],
+    "startTime": "09:00:00",
+    "endTime": "10:00:00",
     "color": "#6c757d",
     "editable": false,
     "fixo": true
@@ -772,10 +721,60 @@
   },
   {
     "lab_id": "4",
+    "title": "8A-ING",
+    "daysOfWeek": [1],
+    "startTime": "11:00:00",
+    "endTime": "12:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "4",
+    "title": "3B-ING",
+    "daysOfWeek": [2],
+    "startTime": "11:00:00",
+    "endTime": "12:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "4",
+    "title": "1A-ING",
+    "daysOfWeek": [4],
+    "startTime": "11:00:00",
+    "endTime": "12:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "4",
     "title": "2A-ING",
     "daysOfWeek": [5],
     "startTime": "11:00:00",
     "endTime": "12:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "4",
+    "title": "3A-ING",
+    "daysOfWeek": [2],
+    "startTime": "12:00:00",
+    "endTime": "13:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "4",
+    "title": "1B-ING",
+    "daysOfWeek": [4],
+    "startTime": "12:00:00",
+    "endTime": "13:00:00",
     "color": "#6c757d",
     "editable": false,
     "fixo": true
@@ -792,8 +791,8 @@
   },
   {
     "lab_id": "5",
-    "title": "8C-MAT",
-    "daysOfWeek": [1],
+    "title": "7D-DIG RB",
+    "daysOfWeek": [3],
     "startTime": "13:00:00",
     "endTime": "14:00:00",
     "color": "#6c757d",
@@ -802,8 +801,8 @@
   },
   {
     "lab_id": "5",
-    "title": "7D-L PORT",
-    "daysOfWeek": [2],
+    "title": "7B-R LEI",
+    "daysOfWeek": [4],
     "startTime": "13:00:00",
     "endTime": "14:00:00",
     "color": "#6c757d",
@@ -813,26 +812,6 @@
   {
     "lab_id": "5",
     "title": "6B-ING",
-    "daysOfWeek": [3],
-    "startTime": "13:00:00",
-    "endTime": "14:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "8E-ING",
-    "daysOfWeek": [4],
-    "startTime": "13:00:00",
-    "endTime": "14:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "7D-ING",
     "daysOfWeek": [5],
     "startTime": "13:00:00",
     "endTime": "14:00:00",
@@ -842,7 +821,7 @@
   },
   {
     "lab_id": "5",
-    "title": "7B-L PORT",
+    "title": "7D-DIG RB",
     "daysOfWeek": [1],
     "startTime": "14:00:00",
     "endTime": "15:00:00",
@@ -852,456 +831,6 @@
   },
   {
     "lab_id": "5",
-    "title": "8E - MAT",
-    "daysOfWeek": [2],
-    "startTime": "14:00:00",
-    "endTime": "15:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "7C-MAT",
-    "daysOfWeek": [3],
-    "startTime": "14:00:00",
-    "endTime": "15:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "7A - R LEI",
-    "daysOfWeek": [4],
-    "startTime": "14:00:00",
-    "endTime": "15:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "8C - R LEI",
-    "daysOfWeek": [5],
-    "startTime": "14:00:00",
-    "endTime": "15:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "6A-MAT",
-    "daysOfWeek": [1],
-    "startTime": "15:00:00",
-    "endTime": "16:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "9D - MAT",
-    "daysOfWeek": [2],
-    "startTime": "15:00:00",
-    "endTime": "16:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "7A - MAT",
-    "daysOfWeek": [3],
-    "startTime": "15:00:00",
-    "endTime": "16:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "7D-R LEI",
-    "daysOfWeek": [4],
-    "startTime": "15:00:00",
-    "endTime": "16:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "7B-R LEI",
-    "daysOfWeek": [5],
-    "startTime": "15:00:00",
-    "endTime": "16:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "8E - R LEI",
-    "daysOfWeek": [1],
-    "startTime": "16:00:00",
-    "endTime": "17:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "6C-ING",
-    "daysOfWeek": [3],
-    "startTime": "16:00:00",
-    "endTime": "17:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "9D-ING",
-    "daysOfWeek": [4],
-    "startTime": "16:00:00",
-    "endTime": "17:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "6A-ING",
-    "daysOfWeek": [5],
-    "startTime": "16:00:00",
-    "endTime": "17:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "7A-ING",
-    "daysOfWeek": [1],
-    "startTime": "17:00:00",
-    "endTime": "18:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "8D - MAT",
-    "daysOfWeek": [2],
-    "startTime": "17:00:00",
-    "endTime": "18:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "7C-ING",
-    "daysOfWeek": [3],
-    "startTime": "17:00:00",
-    "endTime": "18:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "9C-ING",
-    "daysOfWeek": [4],
-    "startTime": "17:00:00",
-    "endTime": "18:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "8D-ING",
-    "daysOfWeek": [5],
-    "startTime": "17:00:00",
-    "endTime": "18:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "8D-R LEI",
-    "daysOfWeek": [1],
-    "startTime": "18:00:00",
-    "endTime": "19:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "7B - ING",
-    "daysOfWeek": [3],
-    "startTime": "18:00:00",
-    "endTime": "19:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "7C-R LEI",
-    "daysOfWeek": [4],
-    "startTime": "18:00:00",
-    "endTime": "19:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "5",
-    "title": "8C-ING",
-    "daysOfWeek": [5],
-    "startTime": "18:00:00",
-    "endTime": "19:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "6A - DIG RB",
-    "daysOfWeek": [4],
-    "startTime": "13:00:00",
-    "endTime": "14:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "7B-MAT",
-    "daysOfWeek": [5],
-    "startTime": "13:00:00",
-    "endTime": "14:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "6C-L PORT",
-    "daysOfWeek": [1],
-    "startTime": "14:00:00",
-    "endTime": "15:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "7A-DIG RB",
-    "daysOfWeek": [2],
-    "startTime": "14:00:00",
-    "endTime": "15:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "6B-DIG RB",
-    "daysOfWeek": [3],
-    "startTime": "14:00:00",
-    "endTime": "15:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "6C-DIG RB",
-    "daysOfWeek": [4],
-    "startTime": "14:00:00",
-    "endTime": "15:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "7D-MAT",
-    "daysOfWeek": [5],
-    "startTime": "14:00:00",
-    "endTime": "15:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "6C-DIG RB",
-    "daysOfWeek": [1],
-    "startTime": "15:00:00",
-    "endTime": "16:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "9C-DIG RB",
-    "daysOfWeek": [2],
-    "startTime": "15:00:00",
-    "endTime": "16:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "9D-DIG RB",
-    "daysOfWeek": [3],
-    "startTime": "15:00:00",
-    "endTime": "16:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "9D-DIG RB",
-    "daysOfWeek": [4],
-    "startTime": "15:00:00",
-    "endTime": "16:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "6C-MAT",
-    "daysOfWeek": [5],
-    "startTime": "15:00:00",
-    "endTime": "16:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "9C-DIG RB",
-    "daysOfWeek": [1],
-    "startTime": "16:00:00",
-    "endTime": "17:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "9C-MAT",
-    "daysOfWeek": [5],
-    "startTime": "16:00:00",
-    "endTime": "17:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "6A - DIG RB",
-    "daysOfWeek": [1],
-    "startTime": "17:00:00",
-    "endTime": "18:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "6B - DIG RB",
-    "daysOfWeek": [1],
-    "startTime": "18:00:00",
-    "endTime": "19:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "7A-DIG RB",
-    "daysOfWeek": [2],
-    "startTime": "18:00:00",
-    "endTime": "19:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "9D-L PORT",
-    "daysOfWeek": [3],
-    "startTime": "18:00:00",
-    "endTime": "19:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "6",
-    "title": "6B-MAT",
-    "daysOfWeek": [5],
-    "startTime": "18:00:00",
-    "endTime": "19:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "7",
-    "title": "7A-L PORT",
-    "daysOfWeek": [1],
-    "startTime": "13:00:00",
-    "endTime": "14:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "7",
-    "title": "7B-DIG RB",
-    "daysOfWeek": [3],
-    "startTime": "13:00:00",
-    "endTime": "14:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "7",
-    "title": "7C-DIG RB",
-    "daysOfWeek": [5],
-    "startTime": "13:00:00",
-    "endTime": "14:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "7",
-    "title": "7D - DIG RB",
-    "daysOfWeek": [1],
-    "startTime": "14:00:00",
-    "endTime": "15:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "7",
     "title": "8D-L PORT",
     "daysOfWeek": [2],
     "startTime": "14:00:00",
@@ -1311,9 +840,9 @@
     "fixo": true
   },
   {
-    "lab_id": "7",
-    "title": "7B-DIG RB",
-    "daysOfWeek": [3],
+    "lab_id": "5",
+    "title": "8C-DIG RB",
+    "daysOfWeek": [4],
     "startTime": "14:00:00",
     "endTime": "15:00:00",
     "color": "#6c757d",
@@ -1321,8 +850,8 @@
     "fixo": true
   },
   {
-    "lab_id": "7",
-    "title": "7C-DIG RB",
+    "lab_id": "5",
+    "title": "6C-REC MAT",
     "daysOfWeek": [5],
     "startTime": "14:00:00",
     "endTime": "15:00:00",
@@ -1331,18 +860,8 @@
     "fixo": true
   },
   {
-    "lab_id": "7",
-    "title": "7D-DIG RB",
-    "daysOfWeek": [1],
-    "startTime": "15:00:00",
-    "endTime": "16:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "7",
-    "title": "7C-L PORT",
+    "lab_id": "5",
+    "title": "9C-MAT",
     "daysOfWeek": [2],
     "startTime": "15:00:00",
     "endTime": "16:00:00",
@@ -1351,9 +870,9 @@
     "fixo": true
   },
   {
-    "lab_id": "7",
-    "title": "6A-L PORT",
-    "daysOfWeek": [4],
+    "lab_id": "5",
+    "title": "7A-R LEI",
+    "daysOfWeek": [3],
     "startTime": "15:00:00",
     "endTime": "16:00:00",
     "color": "#6c757d",
@@ -1361,8 +880,8 @@
     "fixo": true
   },
   {
-    "lab_id": "7",
-    "title": "8E-DIG RB",
+    "lab_id": "5",
+    "title": "7C-ING",
     "daysOfWeek": [5],
     "startTime": "15:00:00",
     "endTime": "16:00:00",
@@ -1371,8 +890,48 @@
     "fixo": true
   },
   {
-    "lab_id": "7",
-    "title": "8D - DIG RB",
+    "lab_id": "5",
+    "title": "8D-DIG RB",
+    "daysOfWeek": [1],
+    "startTime": "16:00:00",
+    "endTime": "17:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "5",
+    "title": "6C-MAT",
+    "daysOfWeek": [2],
+    "startTime": "16:00:00",
+    "endTime": "17:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "5",
+    "title": "7C-MAT",
+    "daysOfWeek": [3],
+    "startTime": "16:00:00",
+    "endTime": "17:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "5",
+    "title": "7C-R LEI",
+    "daysOfWeek": [4],
+    "startTime": "16:00:00",
+    "endTime": "17:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "5",
+    "title": "6B-REC MAT",
     "daysOfWeek": [5],
     "startTime": "16:00:00",
     "endTime": "17:00:00",
@@ -1381,7 +940,7 @@
     "fixo": true
   },
   {
-    "lab_id": "7",
+    "lab_id": "5",
     "title": "8C-DIG RB",
     "daysOfWeek": [1],
     "startTime": "17:00:00",
@@ -1391,7 +950,7 @@
     "fixo": true
   },
   {
-    "lab_id": "7",
+    "lab_id": "5",
     "title": "8C-L PORT",
     "daysOfWeek": [2],
     "startTime": "17:00:00",
@@ -1401,8 +960,8 @@
     "fixo": true
   },
   {
-    "lab_id": "7",
-    "title": "8C-DIG RB",
+    "lab_id": "5",
+    "title": "8D-DIG RB",
     "daysOfWeek": [3],
     "startTime": "17:00:00",
     "endTime": "18:00:00",
@@ -1411,8 +970,18 @@
     "fixo": true
   },
   {
-    "lab_id": "7",
+    "lab_id": "5",
     "title": "8E-L PORT",
+    "daysOfWeek": [4],
+    "startTime": "17:00:00",
+    "endTime": "18:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "5",
+    "title": "6C-ING",
     "daysOfWeek": [5],
     "startTime": "17:00:00",
     "endTime": "18:00:00",
@@ -1421,7 +990,7 @@
     "fixo": true
   },
   {
-    "lab_id": "7",
+    "lab_id": "5",
     "title": "8E-DIG RB",
     "daysOfWeek": [1],
     "startTime": "18:00:00",
@@ -1431,8 +1000,458 @@
     "fixo": true
   },
   {
+    "lab_id": "5",
+    "title": "6B-MAT",
+    "daysOfWeek": [2],
+    "startTime": "18:00:00",
+    "endTime": "19:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "5",
+    "title": "7D-MAT",
+    "daysOfWeek": [3],
+    "startTime": "18:00:00",
+    "endTime": "19:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "5",
+    "title": "8C-R LEI",
+    "daysOfWeek": [4],
+    "startTime": "18:00:00",
+    "endTime": "19:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "5",
+    "title": "6A-ING",
+    "daysOfWeek": [5],
+    "startTime": "18:00:00",
+    "endTime": "19:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "7C-L PORT",
+    "daysOfWeek": [2],
+    "startTime": "13:00:00",
+    "endTime": "14:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "8E-R LEI",
+    "daysOfWeek": [3],
+    "startTime": "13:00:00",
+    "endTime": "14:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "6A-DIG RB",
+    "daysOfWeek": [4],
+    "startTime": "13:00:00",
+    "endTime": "14:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "7B-L PORT",
+    "daysOfWeek": [1],
+    "startTime": "14:00:00",
+    "endTime": "15:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "6C-DIG RB",
+    "daysOfWeek": [2],
+    "startTime": "14:00:00",
+    "endTime": "15:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "6C-DIG RB",
+    "daysOfWeek": [3],
+    "startTime": "14:00:00",
+    "endTime": "15:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "9D-DIG RB",
+    "daysOfWeek": [4],
+    "startTime": "14:00:00",
+    "endTime": "15:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "8E-DIG RB",
+    "daysOfWeek": [5],
+    "startTime": "14:00:00",
+    "endTime": "15:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "7A-L PORT",
+    "daysOfWeek": [1],
+    "startTime": "15:00:00",
+    "endTime": "16:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "9D-MAT",
+    "daysOfWeek": [2],
+    "startTime": "15:00:00",
+    "endTime": "16:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "9D-DIG RB",
+    "daysOfWeek": [3],
+    "startTime": "15:00:00",
+    "endTime": "16:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "6B-DIG RB",
+    "daysOfWeek": [4],
+    "startTime": "15:00:00",
+    "endTime": "16:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "9D-L PORT",
+    "daysOfWeek": [5],
+    "startTime": "15:00:00",
+    "endTime": "16:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "6A-DIG RB",
+    "daysOfWeek": [1],
+    "startTime": "16:00:00",
+    "endTime": "17:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "7D-L PORT",
+    "daysOfWeek": [2],
+    "startTime": "16:00:00",
+    "endTime": "17:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "6B-DIG RB",
+    "daysOfWeek": [3],
+    "startTime": "16:00:00",
+    "endTime": "17:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "9C-ING",
+    "daysOfWeek": [4],
+    "startTime": "16:00:00",
+    "endTime": "17:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "9C-L PORT",
+    "daysOfWeek": [5],
+    "startTime": "16:00:00",
+    "endTime": "17:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "9C-DIG RB",
+    "daysOfWeek": [1],
+    "startTime": "17:00:00",
+    "endTime": "18:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "9C-DIG RB",
+    "daysOfWeek": [2],
+    "startTime": "17:00:00",
+    "endTime": "18:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "6B-L PORT",
+    "daysOfWeek": [3],
+    "startTime": "17:00:00",
+    "endTime": "18:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "6A-L PORT",
+    "daysOfWeek": [4],
+    "startTime": "17:00:00",
+    "endTime": "18:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "7D-R LEI",
+    "daysOfWeek": [5],
+    "startTime": "17:00:00",
+    "endTime": "18:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "7A-DIG RB",
+    "daysOfWeek": [1],
+    "startTime": "18:00:00",
+    "endTime": "19:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "7A-DIG RB",
+    "daysOfWeek": [2],
+    "startTime": "18:00:00",
+    "endTime": "19:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "9D-ING",
+    "daysOfWeek": [3],
+    "startTime": "18:00:00",
+    "endTime": "19:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "6C-L PORT",
+    "daysOfWeek": [4],
+    "startTime": "18:00:00",
+    "endTime": "19:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "6",
+    "title": "8D-R LEI",
+    "daysOfWeek": [5],
+    "startTime": "18:00:00",
+    "endTime": "19:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
     "lab_id": "7",
-    "title": "8DDIG RB",
+    "title": "7A-ING",
+    "daysOfWeek": [1],
+    "startTime": "13:00:00",
+    "endTime": "14:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "7C-DIG RB",
+    "daysOfWeek": [3],
+    "startTime": "13:00:00",
+    "endTime": "14:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "7A-MAT",
+    "daysOfWeek": [4],
+    "startTime": "13:00:00",
+    "endTime": "14:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "8D-ING",
+    "daysOfWeek": [5],
+    "startTime": "13:00:00",
+    "endTime": "14:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "7C-DIG RB",
+    "daysOfWeek": [3],
+    "startTime": "14:00:00",
+    "endTime": "15:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "6A-REC MAT",
+    "daysOfWeek": [4],
+    "startTime": "14:00:00",
+    "endTime": "15:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "6A-MAT",
+    "daysOfWeek": [2],
+    "startTime": "15:00:00",
+    "endTime": "16:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "9D-REC MAT",
+    "daysOfWeek": [4],
+    "startTime": "15:00:00",
+    "endTime": "16:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "7B-ING",
+    "daysOfWeek": [1],
+    "startTime": "17:00:00",
+    "endTime": "18:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "7B-DIG RB",
+    "daysOfWeek": [3],
+    "startTime": "17:00:00",
+    "endTime": "18:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "9C-REC MAT",
+    "daysOfWeek": [4],
+    "startTime": "17:00:00",
+    "endTime": "18:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "8C-ING",
+    "daysOfWeek": [5],
+    "startTime": "17:00:00",
+    "endTime": "18:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "7D-ING",
+    "daysOfWeek": [1],
+    "startTime": "18:00:00",
+    "endTime": "19:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "7",
+    "title": "7B-DIG RB",
     "daysOfWeek": [3],
     "startTime": "18:00:00",
     "endTime": "19:00:00",
@@ -1442,7 +1461,7 @@
   },
   {
     "lab_id": "7",
-    "title": "6B-L PORT",
+    "title": "7B-MAT",
     "daysOfWeek": [4],
     "startTime": "18:00:00",
     "endTime": "19:00:00",
@@ -1452,14 +1471,82 @@
   },
   {
     "lab_id": "7",
-    "title": "9C-L PORT",
+    "title": "8E-ING",
     "daysOfWeek": [5],
     "startTime": "18:00:00",
     "endTime": "19:00:00",
     "color": "#6c757d",
     "editable": false,
     "fixo": true
+  },
+  {
+    "lab_id": "8",
+    "title": "7B-CIEN",
+    "daysOfWeek": [5],
+    "startTime": "14:00:00",
+    "endTime": "15:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "8",
+    "title": "8D-MAT",
+    "daysOfWeek": [4],
+    "startTime": "15:00:00",
+    "endTime": "16:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "8",
+    "title": "7D-CIEN",
+    "daysOfWeek": [5],
+    "startTime": "15:00:00",
+    "endTime": "16:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "8",
+    "title": "7A-CIEN",
+    "daysOfWeek": [4],
+    "startTime": "16:00:00",
+    "endTime": "17:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "8",
+    "title": "7C-CIEN",
+    "daysOfWeek": [5],
+    "startTime": "16:00:00",
+    "endTime": "17:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "8",
+    "title": "8C-MAT",
+    "daysOfWeek": [4],
+    "startTime": "17:00:00",
+    "endTime": "18:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "8",
+    "title": "8E-MAT",
+    "daysOfWeek": [4],
+    "startTime": "18:00:00",
+    "endTime": "19:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
   }
-
-
 ]
