@@ -650,8 +650,66 @@
     "editable": false,
     "fixo": true
   },
-
-  
+  {
+    "lab_id": "4",
+    "title": "2B-ING",
+    "daysOfWeek": [1],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "4",
+    "title": "8B-ING",
+    "daysOfWeek": [1],
+    "startTime": "09:00:00",
+    "endTime": "10:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "4",
+    "title": "8A-ING",
+    "daysOfWeek": [1],
+    "startTime": "11:00:00",
+    "endTime": "12:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "4",
+    "title": "2C-ING",
+    "daysOfWeek": [2],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "4",
+    "title": "2E-ING",
+    "daysOfWeek": [2],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "4",
+    "title": "3B-ING",
+    "daysOfWeek": [2],
+    "startTime": "12:00:00",
+    "endTime": "13:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
   {
     "lab_id": "5",
     "title": "8C-MAT",
