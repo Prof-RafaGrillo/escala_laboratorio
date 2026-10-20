@@ -1,17 +1,7 @@
   [
   {
     "lab_id": "1",
-    "title": "3C-L PORT",
-    "daysOfWeek": [1],
-    "startTime": "07:00:00",
-    "endTime": "08:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "1",
-    "title": "8A-L PORT",
+    "title": "8B-L PORT",
     "daysOfWeek": [2],
     "startTime": "07:00:00",
     "endTime": "08:00:00",
@@ -21,18 +11,8 @@
   },
   {
     "lab_id": "1",
-    "title": "1A-L PORT",
+    "title": "1C-MAT",
     "daysOfWeek": [3],
-    "startTime": "07:00:00",
-    "endTime": "08:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "1",
-    "title": "8A-R LEI",
-    "daysOfWeek": [4],
     "startTime": "07:00:00",
     "endTime": "08:00:00",
     "color": "#6c757d",
@@ -51,7 +31,7 @@
   },
   {
     "lab_id": "1",
-    "title": "2A-L PORT",
+    "title": "9B-L PORT",
     "daysOfWeek": [1],
     "startTime": "08:00:00",
     "endTime": "09:00:00",
@@ -61,7 +41,7 @@
   },
   {
     "lab_id": "1",
-    "title": "9A - L PORT",
+    "title": "2C-L PORT",
     "daysOfWeek": [2],
     "startTime": "08:00:00",
     "endTime": "09:00:00",
@@ -69,19 +49,10 @@
     "editable": false,
     "fixo": true
   },
+ 
   {
     "lab_id": "1",
-    "title": "1D-L PORT",
-    "daysOfWeek": [3],
-    "startTime": "08:00:00",
-    "endTime": "09:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "1",
-    "title": "2E - MAT",
+    "title": "9A-REC MAT",
     "daysOfWeek": [4],
     "startTime": "08:00:00",
     "endTime": "09:00:00",
@@ -91,7 +62,7 @@
   },
   {
     "lab_id": "1",
-    "title": "1C-ING",
+    "title": "2D-L PORT",
     "daysOfWeek": [5],
     "startTime": "08:00:00",
     "endTime": "09:00:00",
@@ -101,7 +72,17 @@
   },
   {
     "lab_id": "1",
-    "title": "8B-L PORT",
+    "title": "2C-MAT",
+    "daysOfWeek": [1],
+    "startTime": "09:00:00",
+    "endTime": "10:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "8A-L PORT",
     "daysOfWeek": [2],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -111,7 +92,7 @@
   },
   {
     "lab_id": "1",
-    "title": "9B-L PORT",
+    "title": "3B - MAT",
     "daysOfWeek": [3],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -121,7 +102,7 @@
   },
   {
     "lab_id": "1",
-    "title": "2A - MAT",
+    "title": "1A - MAT",
     "daysOfWeek": [4],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -131,7 +112,7 @@
   },
   {
     "lab_id": "1",
-    "title": "1B-ING",
+    "title": "3B-L PORT",
     "daysOfWeek": [5],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
@@ -141,10 +122,50 @@
   },
   {
     "lab_id": "1",
-    "title": "3A-L PORT",
+    "title": "2B-L PORT",
     "daysOfWeek": [1],
     "startTime": "10:00:00",
     "endTime": "11:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "9A-L PORT",
+    "daysOfWeek": [2],
+    "startTime": "10:00:00",
+    "endTime": "11:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "3A-MAT",
+    "daysOfWeek": [3],
+    "startTime": "10:00:00",
+    "endTime": "11:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "1D-MAT",
+    "daysOfWeek": [4],
+    "startTime": "10:00:00",
+    "endTime": "11:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "2A-L PORT",
+    "daysOfWeek": [1],
+    "startTime": "11:00:00",
+    "endTime": "12:00:00",
     "color": "#6c757d",
     "editable": false,
     "fixo": true
@@ -153,36 +174,16 @@
     "lab_id": "1",
     "title": "2E-L PORT",
     "daysOfWeek": [2],
-    "startTime": "10:00:00",
-    "endTime": "11:00:00",
+    "startTime": "11:00:00",
+    "endTime": "12:00:00",
     "color": "#6c757d",
     "editable": false,
     "fixo": true
   },
   {
     "lab_id": "1",
-    "title": "2B-MAT",
+    "title": "1B-MAT",
     "daysOfWeek": [4],
-    "startTime": "10:00:00",
-    "endTime": "11:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "1",
-    "title": "8A-ING",
-    "daysOfWeek": [5],
-    "startTime": "10:00:00",
-    "endTime": "11:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "1",
-    "title": "2C-L PORT",
-    "daysOfWeek": [1],
     "startTime": "11:00:00",
     "endTime": "12:00:00",
     "color": "#6c757d",
@@ -191,27 +192,7 @@
   },
   {
     "lab_id": "1",
-    "title": "1A-MAT",
-    "daysOfWeek": [2],
-    "startTime": "11:00:00",
-    "endTime": "12:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "1",
-    "title": "1B-L PORT",
-    "daysOfWeek": [3],
-    "startTime": "11:00:00",
-    "endTime": "12:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "1",
-    "title": "2A-ING",
+    "title": "3C-L PORT",
     "daysOfWeek": [5],
     "startTime": "11:00:00",
     "endTime": "12:00:00",
@@ -221,7 +202,7 @@
   },
   {
     "lab_id": "1",
-    "title": "3B-L PORT",
+    "title": "2D-MAT",
     "daysOfWeek": [1],
     "startTime": "12:00:00",
     "endTime": "13:00:00",
@@ -241,7 +222,17 @@
   },
   {
     "lab_id": "1",
-    "title": "3B-MAT",
+    "title": "3C-MAT",
+    "daysOfWeek": [3],
+    "startTime": "12:00:00",
+    "endTime": "13:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "1",
+    "title": "9B-REC MAT",
     "daysOfWeek": [4],
     "startTime": "12:00:00",
     "endTime": "13:00:00",
@@ -251,7 +242,7 @@
   },
   {
     "lab_id": "1",
-    "title": "2D-ING",
+    "title": "8A-R LEI",
     "daysOfWeek": [5],
     "startTime": "12:00:00",
     "endTime": "13:00:00",
