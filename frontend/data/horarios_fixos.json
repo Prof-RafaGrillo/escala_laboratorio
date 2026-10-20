@@ -252,7 +252,7 @@
   },
   {
     "lab_id": "2",
-    "title": "1C-DIG IA",
+    "title": "2E-PROG",
     "daysOfWeek": [1],
     "startTime": "07:00:00",
     "endTime": "08:00:00",
@@ -262,60 +262,20 @@
   },
   {
     "lab_id": "2",
-    "title": "9B-DIG RB",
-    "daysOfWeek": [3],
-    "startTime": "07:00:00",
-    "endTime": "08:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "2",
-    "title": "2D-L PORT",
-    "daysOfWeek": [4],
-    "startTime": "07:00:00",
-    "endTime": "08:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "2",
-    "title": "1C-MAT",
-    "daysOfWeek": [5],
-    "startTime": "07:00:00",
-    "endTime": "08:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "2",
-    "title": "9B-DIG RB",
-    "daysOfWeek": [1],
-    "startTime": "08:00:00",
-    "endTime": "09:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "2",
-    "title": "2E - PROG",
+    "title": "2E-PROG",
     "daysOfWeek": [2],
-    "startTime": "08:00:00",
-    "endTime": "09:00:00",
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
     "color": "#6c757d",
     "editable": false,
     "fixo": true
   },
   {
     "lab_id": "2",
-    "title": "9A-DIG RB",
+    "title": "3C-MAT II",
     "daysOfWeek": [3],
-    "startTime": "08:00:00",
-    "endTime": "09:00:00",
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
     "color": "#6c757d",
     "editable": false,
     "fixo": true
@@ -323,6 +283,46 @@
   {
     "lab_id": "2",
     "title": "1C-L PORT",
+    "daysOfWeek": [5],
+    "startTime": "07:00:00",
+    "endTime": "08:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "3C-MAT II",
+    "daysOfWeek": [1],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "2D-PROG",
+    "daysOfWeek": [2],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "9B-DIG RB",
+    "daysOfWeek": [3],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "2D-PROG",
     "daysOfWeek": [4],
     "startTime": "08:00:00",
     "endTime": "09:00:00",
@@ -332,48 +332,18 @@
   },
   {
     "lab_id": "2",
-    "title": "1C-DIG IA",
-    "daysOfWeek": [1],
-    "startTime": "09:00:00",
-    "endTime": "10:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "2",
-    "title": "1B-DIG IA",
-    "daysOfWeek": [2],
-    "startTime": "09:00:00",
-    "endTime": "10:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "2",
-    "title": "2D - PROG",
-    "daysOfWeek": [3],
-    "startTime": "09:00:00",
-    "endTime": "10:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "2",
-    "title": "1D-DIG IA",
-    "daysOfWeek": [4],
-    "startTime": "09:00:00",
-    "endTime": "10:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "2",
-    "title": "2B-L PORT",
+    "title": "1D-L PORT",
     "daysOfWeek": [5],
+    "startTime": "08:00:00",
+    "endTime": "09:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "1A-DIG IA",
+    "daysOfWeek": [1],
     "startTime": "09:00:00",
     "endTime": "10:00:00",
     "color": "#6c757d",
@@ -383,6 +353,26 @@
   {
     "lab_id": "2",
     "title": "1A-DIG IA",
+    "daysOfWeek": [2],
+    "startTime": "09:00:00",
+    "endTime": "10:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "1B - DIG IA",
+    "daysOfWeek": [4],
+    "startTime": "09:00:00",
+    "endTime": "10:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "9A-DIG RB",
     "daysOfWeek": [1],
     "startTime": "10:00:00",
     "endTime": "11:00:00",
@@ -392,8 +382,18 @@
   },
   {
     "lab_id": "2",
-    "title": "3C-MAT II",
+    "title": "1D - DIG IA",
     "daysOfWeek": [2],
+    "startTime": "10:00:00",
+    "endTime": "11:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "1C-DIG IA",
+    "daysOfWeek": [3],
     "startTime": "10:00:00",
     "endTime": "11:00:00",
     "color": "#6c757d",
@@ -412,17 +412,7 @@
   },
   {
     "lab_id": "2",
-    "title": "9A-MAT",
-    "daysOfWeek": [5],
-    "startTime": "10:00:00",
-    "endTime": "11:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "2",
-    "title": "1B-DIG IA",
+    "title": "9B-MAT 9B",
     "daysOfWeek": [2],
     "startTime": "11:00:00",
     "endTime": "12:00:00",
@@ -432,7 +422,7 @@
   },
   {
     "lab_id": "2",
-    "title": "2E - PROG",
+    "title": "9B-DIG RB",
     "daysOfWeek": [3],
     "startTime": "11:00:00",
     "endTime": "12:00:00",
@@ -442,17 +432,7 @@
   },
   {
     "lab_id": "2",
-    "title": "3C-MAT II",
-    "daysOfWeek": [4],
-    "startTime": "11:00:00",
-    "endTime": "12:00:00",
-    "color": "#6c757d",
-    "editable": false,
-    "fixo": true
-  },
-  {
-    "lab_id": "2",
-    "title": "8A-MAT",
+    "title": "1B-L PORT",
     "daysOfWeek": [5],
     "startTime": "11:00:00",
     "endTime": "12:00:00",
@@ -462,7 +442,7 @@
   },
   {
     "lab_id": "2",
-    "title": "1D-DIG IA",
+    "title": "1B-DIG IA",
     "daysOfWeek": [1],
     "startTime": "12:00:00",
     "endTime": "13:00:00",
@@ -472,7 +452,7 @@
   },
   {
     "lab_id": "2",
-    "title": "2D-PROG",
+    "title": "1C-DIG IA",
     "daysOfWeek": [2],
     "startTime": "12:00:00",
     "endTime": "13:00:00",
@@ -482,7 +462,7 @@
   },
   {
     "lab_id": "2",
-    "title": "1A - DIG IA",
+    "title": "1D-DIG IA",
     "daysOfWeek": [3],
     "startTime": "12:00:00",
     "endTime": "13:00:00",
@@ -492,7 +472,17 @@
   },
   {
     "lab_id": "2",
-    "title": "9B-MAT",
+    "title": "3A-L PORT",
+    "daysOfWeek": [4],
+    "startTime": "12:00:00",
+    "endTime": "13:00:00",
+    "color": "#6c757d",
+    "editable": false,
+    "fixo": true
+  },
+  {
+    "lab_id": "2",
+    "title": "1A-L PORT",
     "daysOfWeek": [5],
     "startTime": "12:00:00",
     "endTime": "13:00:00",
